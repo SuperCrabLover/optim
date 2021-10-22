@@ -126,7 +126,7 @@ Notice: both $$p^*$$ and $$d^*$$ may be $$+ \infty$$.
 	It could be very complicated to solve the initial problem. But if we have the dual problem, we can take an arbitrary $y \in \Omega$ and substitute it in $g(y)$ - we'll immediately obtain some lower bound.
 * **Checking for the problem's solvability and attainability of the solution.** 
 
-	From the inequality $\max\limits_{y \in \Omega} g(y) \leq \min\limits_{x \in S} f(x) $ follows: if $\min\limits_{x \in S} f(x) = -\infty$, then $\Omega = \varnothing$ and vice versa.
+	From the inequality $\max\limits_{y \in \Omega} g(y) \leq \min\limits_{x \in S} f_0(x) $ follows: if $\min\limits_{x \in S} f_0(x) = -\infty$, then $\Omega = \varnothing$ and vice versa.
 * **Sometimes it is easier to solve a dual problem than a primal one.** 
 
 	In this case, if the strong duality holds: $g(y^∗) = f(x^∗)$ we lose nothing.
